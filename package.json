@@ -1,0 +1,24 @@
+{
+  "name": "js-tdd-course",
+  "version": "0.0.1",
+  "description": "TDD with JS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AndreyFA/tdd-with-js-course.git"
+  },
+  "keywords": [
+    "js",
+    "tdd",
+    "library"
+  ],
+  "author": "Andrey Frazatti Alves <desenvolvedorcsharp@outlook.com> (https://github.com/AndreyFA)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AndreyFA/tdd-with-js-course/issues"
+  },
+  "homepage": "https://github.com/AndreyFA/tdd-with-js-course#readme"
+}
