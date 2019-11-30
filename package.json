@@ -4,6 +4,8 @@
   "description": "TDD with JS",
   "main": "index.js",
   "scripts": {
+    "lint": "./node_modules/.bin/eslint src/*.js",
+    "prepush": "npm run lint",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -20,5 +22,9 @@
   "bugs": {
     "url": "https://github.com/AndreyFA/tdd-with-js-course/issues"
   },
-  "homepage": "https://github.com/AndreyFA/tdd-with-js-course#readme"
+  "homepage": "https://github.com/AndreyFA/tdd-with-js-course#readme",
+  "devDependencies": {
+    "eslint": "^6.7.0",
+    "husky": "^3.1.0"
+  }
 }
